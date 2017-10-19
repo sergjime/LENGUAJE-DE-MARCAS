@@ -1,0 +1,28 @@
+body{
+	text-align:center;
+	background-color: white;
+	font-family: "Tahoma", "Times New Roman";
+}
+
+#contenedor{
+	width:70%;
+	padding:10px;
+	text-align:center;
+	margin: auto;
+	background-color: #C2E6F0;
+}
+
+table{
+	border: solid 1px black;
+	background-color: white;
+	color: blue;
+	width: 100%;
+}
+
+th{
+	font-weight:bold;
+}
+
+li{
+	text-decoration: none;
+}

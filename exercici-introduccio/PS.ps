@@ -1,0 +1,40 @@
+%!
+% Ejemplo 1: Ovillo
+
+/mm {72 mul 25.4 div} def   % Conversion de mm a puntos
+/W {210 mm} def             % Ancho A4
+/H {297 mm} def             % Alto A4
+
+<< /PageSize [W H] >> setpagedevice 
+
+/circulo {
+    % Circulo generico.
+    % Espera: x y radio
+    % Deja: -
+	
+    0 360 arc
+} def
+
+/forma {
+    % Traza un circulo especifico, de 60 mm de radio y 2 puntos de contorno.
+    % Espera: x y
+    % Deja: -
+
+    2 setlinewidth
+    60 mm circulo 
+    stroke
+} def
+
+/N 8 def                    % Cantidad de veces que dibujaremos una figura
+W 2 div H 2 div translate   % Origen de coordenadas al centro de la p‡gina
+
+0 setgray
+0 0 forma                   % Primera figura en el centro, en negro
+
+1 0 0 setrgbcolor
+N {                         % Repetir N veces
+    360 N div rotate        % Rotar el espacio (360/N) grados cada vez 
+    25 mm 0 forma           % y dibujar la figura 25 mm a la derecha en ese espacio
+} repeat                    
+
+showpage

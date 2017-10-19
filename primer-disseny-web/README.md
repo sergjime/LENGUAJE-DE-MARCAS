@@ -1,0 +1,1 @@
+Hoy hice mi primer diseño web, el cual trata de una web sencilla con html5. En dicha tarea he empleado título y descripción de la web, cabecera, inserción de imágenes (la imagen vinculada a una imagen ubicada en una carpta llamada img), listas, enlaces y una tabla (sin css).
