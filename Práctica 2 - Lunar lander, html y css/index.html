@@ -2,12 +2,29 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lunar lander</title>
-<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel='stylesheet' media='screen and (min-width: 720px)' href='css/desktop.css'>
+<link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mobile.css'>
 </head>
 <body>
-	<div class="a">Opciones de panel</div><div class="b">Nave</div><div class="c">Opciones de control</div>
-	<div class="d">Terreno</div>
+<div id="nave">
+	<img src="img/ovni.png" alt="Nave">
+</div>
+<div class="a">
+	<ul id="cpanel">
+		<li>Velocidad <span id="velocidad">100</span> m/s</li>
+		<li>Fuel <span id="fuel">500</span> l</li>
+		<li>Altura <span id="altura">60</span> m</li>
+	</ul>
+</div><div class="b">b</div>
+<div class="c">
+	<ul id="menu">
+		<li>Jugar</li>
+		<li>Instrucciones</li>
+		<li>Acerca de...</li>
+	</ul>
+</div>
+<div class="d">d</div>
 </body>
 </html>
-
