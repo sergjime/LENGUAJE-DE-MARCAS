@@ -9,22 +9,25 @@
 </head>
 <body>
 <div id="nave">
-	<img src="img/ovni.png" alt="Nave">
+	<img id='nave_desktop' media='screen and (min-width: 720px)' src="img/ovni.png" alt="Nave">
+	<img id='nave_mobile' media='screen and (max-width: 720px)' src="img/ovni(2).png" alt="Nave">
 </div>
 <div class="a">
 	<ul id="cpanel">
-		<li>Velocidad <span id="velocidad">100</span> m/s</li>
-		<li>Fuel <span id="fuel">500</span> l</li>
-		<li>Altura <span id="altura">60</span> m</li>
+		<div class="boton_izquierda"><div class="cpanel_bot"><li>Speed:</div><div class="cpanel_bot"><span id="velocidad">100</span> m/s</li></div></div>
+		<div class="boton_izquierda"><div class="cpanel_bot"><li>Fuel:</div><div class="cpanel_bot"><span id="fuel">500</span> l</li></div></div>
+		<div class="boton_izquierda"><div class="cpanel_bot"><li>Height:</div><div class="cpanel_bot"><span id="altura">60</span> m</li></div></div>
 	</ul>
 </div><div class="b">b</div>
 <div class="c">
 	<ul id="menu">
-		<li>Jugar</li>
-		<li>Instrucciones</li>
-		<li>Acerca de...</li>
+		<li class='li_mobile'><a href="#"><img src="img/plus.png" alt="img mas"></a></li>
+		<li class='li_desktop'><a href="#"><img src="img/reiniciar.png" alt="img reiniciar"></a></li>
+		<li class='li_desktop'><a href="#"><img src="img/play.png" alt="img play"></a></li>
+		<li class='li_desktop'><a href="#"><img src="img/opciones.png" alt="img opciones"></a></li>
+		<li class='li_desktop'><a href="#"><img src="img/instructions.png" alt="img instrucciones"></a></li>
 	</ul>
 </div>
-<div class="d">d</div>
+<img id="luna" src="img/aterrizaje.png" alt="aterrizaje">
 </body>
 </html>

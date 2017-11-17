@@ -1,1 +1,88 @@
-mobile
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+	background: url(../img/fondo.png) no-repeat center center fixed;
+	background-size: cover;
+}
+body{
+	font-size:3vw
+}
+.b{
+	width:20%;
+}
+.a, .c{
+	width:40%;
+}
+.a,.b,.c{
+	display:inline-block;
+	height:100%;
+	float:left;
+}
+.d{
+	height: 15%;
+    width: 60%;
+    position: fixed;
+    bottom: 0px;
+    left: 20%;
+}
+#nave{
+	text-align:center;
+	position:fixed;
+	top:5%;
+	width:100%;
+	height:20%;
+}
+#nave img{
+	height:100%;
+}
+#cpanel{
+	width: 30%;
+	margin: 5%;
+	text-align: center;
+	height: 40%;
+}
+#cpanel, #menu{
+	list-style: none;
+	font-size: 20px;
+}
+#cpanel{
+	text-align: center;
+	padding: 0;
+	width: 50%;
+}
+#menu li{
+    background-color: orange;
+}
+#cpanel li{
+	display: inline;
+	background-color: orange;
+}
+#menu li a{
+    background-color: orange;
+    text-decoration: none;
+}
+#menu li.li_desktop{
+	display: none;
+	float: left;
+	margin: 2%;
+}
+#menu li.li_mobile{
+	float: left;
+}
+.boton_izquierda{
+	margin-top: 20%;
+	width:100%;
+	background-color: orange;
+}
+#luna{
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	position: fixed;
+	height: 20%;
+}
+#nave_desktop{
+	display: none;
+}
