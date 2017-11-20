@@ -1,4 +1,4 @@
-Diseñado por: Rubén Juárez Bustamante
-Desarrollado por: Sergio Jiménez Sastre
+DiseÃ±ado por: RubÃ©n JuÃ¡rez Bustamante
+Desarrollado por: Sergio JimÃ©nez Sastre
 
-Me pasaron la documentación de un juego en el cual una nave aterrizará a la luna. La distribución de los elementos los dejé como documentaba, exceptuando la parte de móvil. Me pareció mejor idea añadir un único botón el cual desplegara los demás para que así hubiera más espacio.
+Me pasaron la documentaciÃ³n de un juego en el cual una nave aterrizarÃ¡ a la luna. La distribuciÃ³n de los elementos los dejÃ© como documentaba, exceptuando la parte de mÃ³vil. Me pareciÃ³ mejor idea aÃ±adir un Ãºnico botÃ³n el cual desplegarÃ¡ los demÃ¡s para que asÃ­ hubiera mÃ¡s espacio.
