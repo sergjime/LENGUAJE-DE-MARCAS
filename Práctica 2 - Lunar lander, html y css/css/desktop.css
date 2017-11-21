@@ -99,6 +99,9 @@ body{
 #nave_mobile{
 	display: none;
 }
+#instrucciones{
+	margin-top: 20%;
+}
 h3{
 	font-weight: bold;
 	background-color:orange;
