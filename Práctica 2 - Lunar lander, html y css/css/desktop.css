@@ -1,3 +1,7 @@
+*{
+	margin:0;
+	padding:0;
+}
 body,html{
 	height:100%;
 	padding:0px;
@@ -100,23 +104,8 @@ body{
 	display: none;
 }
 #instrucciones{
-	margin-top: 20%;
+	display: none;
 }
-h3{
-	font-weight: bold;
-	background-color:orange;
-	height: 50%;
-	width: 50%;
-	margin: 5% auto 5% auto;
-	border-radius: 5%;
-	padding: 1%;
-	text-align:center;
-}
-p{
-	background-color:orange;
-	height: 50%;
-	width: 50%;
-	margin: auto;
-	border-radius: 1%;
-	padding: 2%;
+p a{
+	display:none;
 }
