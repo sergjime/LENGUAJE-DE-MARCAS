@@ -76,12 +76,8 @@ body{
 	background-color: orange;
 }
 #luna{
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin: 0 auto;
-	position: fixed;
-	height: 20%;
+	height: 100%;
+    width: 100%;
 }
 #nave_desktop{
 	display: none;
@@ -116,4 +112,11 @@ p a{
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
+}
+#aterrizar{
+	height: 15%;
+    width: 60%;
+    position: fixed;
+    bottom: 0px;
+    left: 20%;
 }

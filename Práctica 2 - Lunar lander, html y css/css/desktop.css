@@ -46,11 +46,11 @@ body{
 	margin: 5%;
 	text-align: center;
 	height: 40%;
-}
-#cpanel{
+	z-index: 2;
 	list-style: none;
 	font-size: 25px;
 }
+
 #cpanel{
 	text-align: center;
 }
@@ -93,12 +93,8 @@ body{
 	width: 30%;
 }
 #luna{
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin: 0 auto;
-	position: fixed;
-	height: 20%;
+	height: 100%;
+    width: 100%;
 }
 #nave_mobile{
 	display: none;
@@ -108,4 +104,11 @@ body{
 }
 p a{
 	display:none;
+}
+#aterrizar{
+	height: 15%;
+    width: 60%;
+    position: fixed;
+    bottom: 0px;
+    left: 20%;
 }
