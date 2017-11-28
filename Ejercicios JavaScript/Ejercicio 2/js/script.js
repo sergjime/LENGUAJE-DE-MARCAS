@@ -1,9 +1,13 @@
 var x = 100;
 var y= 100;
-var resultatString = (x+y)+"px";
+var resultado = (x+y)+"px";
+
+function ChangeHeight(){
+	document.getElementById("verde").style.height=resultado;
+}
 
 window.onload=function(){
-	document.getElementById("b").onclick=function(){	
-		document.getElementsById("verde").style.height=resultatString;
-	}
+  document.getElementById("b").onclick=function(){
+	  ChangeHeight()
+  }
 }
