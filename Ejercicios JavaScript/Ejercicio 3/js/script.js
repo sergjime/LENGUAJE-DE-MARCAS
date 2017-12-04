@@ -1,12 +1,11 @@
-var uno = 1;
-var resultado = uno+"px";
+var dados = null;
 
 function ChangePosition(){
-	document.getElementsByTagName("img").style.;
+	var resultado = 50;
+	dados.style.top=resultado+"px";
 }
 
 window.onload=function(){
-  document.getElementById("b").onclick=function(){
-	  ChangePosition()
-  }
+	dados = document.getElementsByTagName("img")[0];
+	document.getElementById("b").onclick=ChangePosition;
 }
